@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+xmlns:con="http://control/">
+<soapenv:Header/>
+<soapenv:Body>
+	<con:getLogin>
+		<!--Optional:-->
+		<parameter>
+			<!--Optional:-->
+			<canalVenta>TMS</canalVenta>
+			<!--Optional:-->
+			<direccionIP>192.168.125.21</direccionIP>
+			<!--Optional:-->
+			<direccionMAC>00-21-5E-4D-45-85</direccionMAC>
+			<!--Optional:-->
+			<nombreCaja>TOURISTERPORT</nombreCaja>
+			<!--Optional:-->
+			<nombreEquipo>TOURISTERPORT</nombreEquipo>
+			<!--Optional:-->
+			<sucursalClave>WEB</sucursalClave>
+			<!--Optional:-->
+			<usuarioContrasena>123456</usuarioContrasena>
+			<!--Optional:-->
+			<usuarioNumero>1017</usuarioNumero>
+		</parameter>
+	</con:getLogin>
+</soapenv:Body>
+</soapenv:Envelope>

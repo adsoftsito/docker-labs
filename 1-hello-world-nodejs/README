@@ -1,0 +1,15 @@
+Crear cuenta en https://hub.docker.com/
+
+1.- sudo docker build -t <dockerhub-user>/helloworld .
+2.- sudo docker container --name helloworld-container -p 8080:8080 -d <dockerhub-user>/helloworld 
+3.- sudo docker ps
+5.- sudo docker stop hello-world-container
+5.- sudo docker start hello-world-container
+4.- sudo docker exec -it helloworld-container bash
+-----------
+6.- sudo docker login
+7.- sudo docker push <dockerhub-user>/helloworld
+----------
+8.- sudo docker kill hello-world-container
+9.- sudo docker rm hello-world-container
+10.- sudo docker rmi <dockerhub-user>/helloworld
